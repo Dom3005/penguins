@@ -1,0 +1,225 @@
+/*
+    CSS for Index.html
+    Made by Dom3005
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body, html{
+    background-color: rgb(128, 195, 235);
+}
+
+nav{
+    font-size: 0;
+}
+
+a{
+    font-size: medium;
+}
+
+.headerButton{
+
+    background-color: #111;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    border: 2px solid #111;
+    cursor: pointer;
+}
+
+#header li:hover{
+    transition-duration: .2s;
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    background-color: #111;
+    color: white;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+
+#header li{
+    display: inline-block;
+    border: 2px solid #111;
+    padding: 1% 1%;
+}
+
+#headerLogo{
+    padding: 0;
+    height: 30px;
+    transform: translate(0, 25%);
+    padding: 0 1%;
+}
+
+#content{
+    padding: 1% 1%;
+    height: 150vh;
+}
+
+#inTitle{
+    width: 10%;
+    box-sizing: border-box;
+}
+
+#btnHW{
+    width: 10%;
+}
+
+#banner01{
+    position: relative;
+    text-align: center;
+    color:white;
+    background-image: url("images/banner01.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+#bannerTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 1000%;
+    text-shadow: 0 0 15px #111;
+}
+
+
+
+
+
+/*
+    SPECIES
+*/
+
+
+#kingpenguin{
+    background-image: url("images/kingpenguin.jpg");
+}
+
+#emperorpenguin{
+    background-image: url("images/emperorpenguin.jpg");
+}
+
+#gentoopenguin{
+    background-image: url("images/gentoopenguin.jpg");
+}
+
+#rockhopperpenguin{
+    background-image: url("images/rockhopperpenguin.jpg");
+}
+
+#littlepenguin{
+    background-image: url("images/littlepenguin.jpg");
+}
+
+#humboldtpenguin{
+    background-image: url("images/humboldtpenguin.jpg");
+}
+
+#yelloweyedpenguin{
+    background-image: url("images/yelloweyedpenguin.jpg");
+}
+
+#royalpenguin{
+    background-image: url("images/royalpenguin.jpg");
+}
+
+#macaronipenguin{
+    background-image: url("images/macaronipenguin.jpg");
+}
+
+#chinstrappenguin{
+    background-image: url("images/chinstrappenguin.png");
+}
+
+#whiteflipperedpenguin{
+    background-image: url("images/whiteflipperedpenguin.jpg");
+}
+
+#adeliepenguin{
+    background-image: url("images/adeliepenguin.jpg");
+}
+
+#speciesTable ul{
+    list-style-type: none;
+    width: 100%;
+    display: inline-flex;
+}
+
+#speciesTable li{
+    margin: 20px;
+}
+
+#speciesTable a{
+    text-decoration: none;
+}
+
+.speciesTitle{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 22px;
+    background-color: #111;
+    color: white;
+}
+
+.speciesImg{
+    padding: 50%;
+    padding-bottom: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.speciesBox{
+    height: 410px;
+    width: 270px;
+    border: solid black 1px;
+    overflow: hidden;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+}
+  
+.topnav a {
+    border: 2px solid #333;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    transition-duration: .2s;
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    border: 2px solid #04AA6D;
+    color: white;
+}
