@@ -3,6 +3,7 @@
     Made by Dom3005
 */
 
+
 *{
     margin: 0;
     padding: 0;
@@ -156,6 +157,10 @@ a{
     background-image: url("images/adeliepenguin.jpg");
 }
 
+#speciesTable{
+    background-color: #04AA6D;
+}
+
 #speciesTable ul{
     list-style-type: none;
     width: 100%;
@@ -164,6 +169,8 @@ a{
 
 #speciesTable li{
     margin: 20px;
+    height: 100vh;
+    width: 100vw;
 }
 
 #speciesTable a{
