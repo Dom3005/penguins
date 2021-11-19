@@ -159,14 +159,13 @@ a{
 }
 
 #speciesTable{
-    background-color: #04AA6D;
+    width: 92vw;
+    margin: auto;
 }
 
 #speciesTable ul{
     list-style-type: none;
-    width: 100%;
     overflow: hidden;
-    align-content: stretch;
 }
 
 #speciesTable li{
@@ -195,7 +194,7 @@ a{
 
 .speciesBox{
     height: 43vh;
-    width: 14vw;
+    width: 13vw;
     border: solid black 1px;
     overflow: hidden;
 }
