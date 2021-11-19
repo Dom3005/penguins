@@ -186,8 +186,8 @@ a{
 }
 
 .speciesBox{
-    height: 410px;
-    width: 270px;
+    height: 43vh;
+    width: 14vw;
     border: solid black 1px;
     overflow: hidden;
 }
